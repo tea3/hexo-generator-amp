@@ -84,7 +84,7 @@ $ hexo clean
 $ hexo server
 ```
 
-This plugin generated the AMP HTML. Please open `http://localhost:4000/your-posts-parmalink/amp/` in browser.
+This plugin generated the AMP HTML. Please open `http://localhost:4000/amp/your-posts-parmalink` in browser.
 
 If occured plugin error , Please refer [#17](https://github.com/tea3/hexo-generator-amp/issues/17) and [other issue](https://github.com/tea3/hexo-generator-amp/issues?q=is%3Aissue+is%3Aclosed) .
 
@@ -93,7 +93,7 @@ If occured plugin error , Please refer [#17](https://github.com/tea3/hexo-genera
 This plugin generated the AMP HTML. Output file path is `./your-posts-parmalink/amp/`. Next , you should validate AMP HTML with the following procedure.
 
 1. Please open your AMP HTML page in [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/).
-2. The Chrome DevTools console can check for AMP HTML. please Append `http://localhost:4000/your-posts-parmalink/amp/#development=1` to the URL. Please see below for the details.
+2. The Chrome DevTools console can check for AMP HTML. please Append `http://localhost:4000/amp/your-posts-parmalink/#development=1` to the URL. Please see below for the details.
 
 > Accelerated Mobile Pages Project - [Validate AMP Pages](https://www.ampproject.org/docs/guides/validate.html)
 
