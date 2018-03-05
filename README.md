@@ -41,7 +41,7 @@ First, add the following in your template files. For example , Please edit `them
 
 ``` ejs
 <% if (is_post() && config.generator_amp){ %>
-  <link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path %>/amp/index.html">
+        <link rel="amphtml" href="<%= config.url %><%= config.root %>amp/<%= page.path %>">
 <% } %>
 ```
 
