@@ -4,7 +4,7 @@
   "main": "index",
   "dependencies": {
     "amphtml-validator": "^1.0.21",
-    "bluebird" : "^3.5.1",
+    "bluebird": "^3.5.1",
     "cheerio": "^1.0.0-rc.2",
     "ejs": "^2.5.7",
     "follow-redirects": "^1.2.6",
@@ -13,8 +13,8 @@
     "hexo-util": "^0.6.3",
     "html-minifier": "^3.5.8",
     "image-size": "^0.6.2",
-    "log-util": "^1.2.0",
     "lodash": "^4.17.4",
+    "log-util": "^1.2.0",
     "mkdirp": "^0.5.1",
     "moment": "^2.20.1",
     "nib": "^1.1.2",

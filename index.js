@@ -36,28 +36,6 @@ if(hexo.config.generator_amp && hexo.config.generator_amp.templateDir && hexo.co
 	return null;
 }
 
-var avatorDefaultPath = "sample/" + pathFn.basename( avatarPath );
-if(hexo.config.authorDetail && hexo.config.authorDetail.avatar && hexo.config.authorDetail.avatar.path){
-	avatorDefaultPath = hexo.config.authorDetail.avatar.path;
-}
-
-var placeholderDefaultPath = "sample/" + pathFn.basename( placeholderPath );
-if(hexo.config.generator_amp.placeholderImg && hexo.config.generator_amp.placeholderImg.path){
-	placeholderDefaultPath = hexo.config.generator_amp.placeholderImg.path;
-}
-
-var siteLogImagePath = "";
-if(hexo.config.generator_amp.logo_topImage && hexo.config.generator_amp.logo_topImage.path){
-	siteLogImagePath = hexo.config.generator_amp.logo_topImage.path;
-}else{
-	siteLogImagePath = hexo.config.generator_amp.logo.path;
-}
-
-var copyAssetsStatus  = ic.copyAssets(hexo.config.generator_amp.templateDir, hexo.config.generator_amp.assetDistDir, [hexo.config.generator_amp.logo.path, hexo.config.generator_amp.substituteTitleImage.path, avatorDefaultPath, siteLogImagePath , placeholderDefaultPath]);
-if(!copyAssetsStatus)return null;
-
-
-
 hexo.config.generator_amp = assign({
 	
 }, hexo.config.generator_amp, {
