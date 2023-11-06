@@ -1,6 +1,6 @@
 {
   "name": "@perqin/hexo-generator-amp",
-  "version": "3.2.0-patch-02",
+  "version": "3.2.0-patch-03",
   "main": "index",
   "dependencies": {
     "amphtml-validator": "^1.0.21",
