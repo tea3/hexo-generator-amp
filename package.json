@@ -1,15 +1,15 @@
 {
-  "name": "hexo-generator-amp",
-  "version": "3.2.0",
+  "name": "@perqin/hexo-generator-amp",
+  "version": "3.2.0-patch-02",
   "main": "index",
   "dependencies": {
     "amphtml-validator": "^1.0.21",
     "bluebird": "^3.5.1",
     "cheerio": "^1.0.0-rc.2",
-    "ejs": "^2.5.7",
+    "ejs": "^3.1.9",
     "follow-redirects": "^1.2.6",
     "hasha": "^3.0.0",
-    "hexo-fs": "^1.0.2",
+    "hexo-fs": "^4.1.1",
     "hexo-util": "^0.6.3",
     "html-minifier": "^3.5.8",
     "image-size": "^0.6.2",
@@ -18,13 +18,12 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.20.1",
     "nib": "^1.1.2",
-    "node-sass": "^4.12.0",
     "object-assign": "^4.1.1",
-    "pug": "^2.0.0-rc.4",
+    "pug": "^3.0.2",
+    "sass": "^1.69.5",
     "stylus": "^0.54.5"
   },
   "description": "AMP ⚡ HTML (Accelerated Mobile Pages) generator for Hexo.",
-  "devDependencies": {},
   "directories": {
     "lib": "./lib"
   },
